@@ -1,1 +1,19 @@
-[{"title":"Test Title","text":"Test text"}]
+{
+  "notes": [
+    {
+      "title": "First note",
+      "text": "Description",
+      "id": "g5kqjDHyMd8MKBZNhcWND4"
+    },
+    {
+      "title": "Second note",
+      "text": "Written on 2020-10-21",
+      "id": "kQhNbbmEMRN7SBd1cRTxPb"
+    },
+    {
+      "text": "Some random note",
+      "title": "2020-10-21",
+      "id": "pNK7ffpQbMC6H2huZBPgsM"
+    }
+  ]
+}
