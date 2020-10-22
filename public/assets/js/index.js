@@ -99,7 +99,7 @@ const handleNoteDelete = (e) => {
 // Sets the activeNote and displays it
 const handleNoteView = (e) => {
   e.preventDefault();
-  if (e.target.getAttribute('data-note')) activeNote = JSON.parse(e.target.getAttribute('data-note'));
+  if (e.target.closest('.list-group-item').getAttribute('data-note')) activeNote = JSON.parse(e.target.closest('.list-group-item').getAttribute('data-note'));
   renderActiveNote();
 };
 
